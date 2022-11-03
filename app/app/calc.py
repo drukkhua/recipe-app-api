@@ -1,6 +1,6 @@
-'''
+"""
 Calculator functions
-'''
+"""
 
 
 def add(x, y):
