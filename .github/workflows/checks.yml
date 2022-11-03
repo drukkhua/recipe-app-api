@@ -21,13 +21,3 @@ jobs:
         run: docker-compose run --rm app sh -c "python manage.py test"
       - name: Lint
         run: docker-compose run --rm app sh -c "flake8"
-#run: echo "KEY=VALUE" >>$GITHUB_OUTPUT
-#steps:
-#  - name: Set the value
-#    id: step_one
-#    run: |
-#      echo "action_state=yellow" >> $GITHUB_ENV
-#  - name: Use the value
-#    id: step_two
-#    run: |
-#      echo "${{ env.action_state }}" # This will output 'yellow'
