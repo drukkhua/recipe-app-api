@@ -12,9 +12,9 @@ Recipe API project
 <br>- <code>docker-compose build .</code>
 <br>- <code>docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py migrate</code>
 ---
-- To run all 62 tests & flake8 test local:
-<br> -<code>docker-compose run app sh -c "python3 manage.py test && flake8"
+- To run all 62 tests & flake8 test local:<code>docker-compose run app sh -c "python3 manage.py test && flake8"
 </code>
 ---
-- Run project after locally: 
-<br>- <code>docker-compose up</code>
+- Run project after locally:<code>docker-compose up</code>
+- Stop project:
+<code>docker-compose down</code>
