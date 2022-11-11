@@ -7,14 +7,15 @@ Recipe API project
 - Documentation for API - > drf_spectacular
 - Flake8
 - Docker compose for PostgreSQL & all project
----
-- First run project:
-<br>- <code>docker-compose build .</code>
-<br>- <code>docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py migrate</code>
----
-- To run all 62 tests & flake8 test local:<code>docker-compose run app sh -c "python3 manage.py test && flake8"
-</code>
----
-- Run project after locally:<code>docker-compose up</code>
-- Stop project:
-<code>docker-compose down</code>
+***
+- <h3>First run project:</h3>
+-- <code>docker-compose build .</code><br>
+-- <code>docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py migrate</code>
+***
+- <h3>To run all 62 tests & flake8 test local:</h3>
+-- <code>docker-compose run app sh -c "python3 manage.py test && flake8"</code>
+***
+- <h3>Run project after locally:</h3>
+--<code>docker-compose up</code>
+- <h3>Stop project:</h3>
+--<code>docker-compose down</code>
