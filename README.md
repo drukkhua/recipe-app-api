@@ -7,5 +7,11 @@ Recipe API project
 - drf_spectacular -> for documentation API
 - Flake8
 - docker compose for PostgreSQL & all project
-to run all 62 tests & flake8 test type command: docker-compose run app sh -c "python3 manage.py test && flake8"
-first run project: docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py migrate
+---
+to run all 62 tests & flake8 test type command:
+---
+- docker-compose run app sh -c "python3 manage.py test && flake8"
+---
+first run project:
+---
+docker-compose run --rm app sh -c "python manage.py wait_for_db && python manage.py migrate
